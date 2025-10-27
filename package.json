@@ -1,6 +1,6 @@
 {
   "name": "react-native-mqtt-mtls",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Native MQTT client with mutual TLS (mTLS) authentication support for Android",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
