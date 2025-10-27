@@ -27,6 +27,8 @@
         "node_modules",
         "lib",
         "android",
-        "example"
+        "example",
+        "**/*.spec.ts",
+        "**/*.test.ts"
     ]
 }
