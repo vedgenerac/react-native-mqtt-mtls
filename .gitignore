@@ -5,6 +5,7 @@ yarn-error.log
 
 # OSX
 .DS_Store
+Thumbs.db
 
 # Android
 *.iml
@@ -22,3 +23,7 @@ yarn-error.log
 # Misc
 .env
 .env.local
+
+# Build output
+lib/
+.yarn

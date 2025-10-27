@@ -1,38 +1,53 @@
 {
   "name": "react-native-mqtt-mtls",
   "version": "1.0.0",
-  "description": "React Native MQTT client with mTLS support for Android and iOS",
+  "description": "React Native MQTT client with mutual TLS (mTLS) authentication support for Android",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "clean": "rm -rf lib"
   },
+  "files": [
+    "lib/",
+    "android/",
+    "src/",
+    "react-native-mqtt-mtls.podspec",
+    "README.md"
+  ],
   "keywords": [
     "react-native",
     "mqtt",
     "mtls",
+    "mutual-tls",
     "android",
-    "ios"
+    "ssl",
+    "tls",
+    "iot"
   ],
   "author": "Your Name",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedgenerac/react-native-mqtt-mtls.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vedgenerac/react-native-mqtt-mtls/issues"
+  },
+  "homepage": "https://github.com/vedgenerac/react-native-mqtt-mtls#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
   },
   "devDependencies": {
-    "@types/react": "^18.0.0",
-    "@types/react-native": "^0.72.0",
-    "typescript": "^5.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vedgenerac/react-native-mqtt-mtls.git"
-  },
-  "files": [
-    "lib/",
-    "android/",
-    "react-native-mqtt-mtls.podspec",
-    "README.md"
-  ]
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@types/react": "^19.2.2",
+    "@types/react-native": "^0.73.0",
+    "react": "^19.2.0",
+    "react-native": "^0.82.1",
+    "typescript": "^5.9.3"
+  }
 }
