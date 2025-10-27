@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OSX
+.DS_Store
+
+# Android
+*.iml
+.gradle
+/android/build/
+/android/.cxx/
+/android/local.properties
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Misc
+.env
+.env.local
