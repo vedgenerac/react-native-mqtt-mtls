@@ -25,5 +25,5 @@ Thumbs.db
 .env.local
 
 # Build output
-lib/
+# lib/
 .yarn
